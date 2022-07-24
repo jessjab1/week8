@@ -1,0 +1,76 @@
+/*Style for photos -class sector- */
+    /* boarders are to be a black solid line */
+.img{
+    border-color:rgb(17, 17, 17);
+    border-width: 20px;
+    border-style: solid ;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Style for a -class selector-*/
+.a{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 15px;
+}
+
+/* Style for h1 -element selector- */
+h1 {
+    font: normal;
+    font-size: 50px;
+    color: black;
+    text-shadow: 10px;
+    text-align:center;
+}
+
+/* Style for h2 -element selector-*/
+h2 {
+    font-size: 30px;
+    text-align: left;
+}
+
+/* Style for paragraphs -element selector- */
+p{
+    font-size: 18px;
+    text-align: center;
+}
+
+/* Style for table -element selector -*/
+#table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ tr, th, td{
+    border: 2px;
+    border-color: blue;
+    border-style: solid;
+    align-content: center;
+    font-size: 18px;
+    padding: 10px;
+}
+
+/* style for list - id selector */
+#list {
+    list-style: square;
+}
+
+/* Style for submit button - id selector - */
+#button{
+    background-color:gray;
+    border:none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+}
+
+/* Style for text input boxes -element selector-*/
+.textbox{
+    align-content:left;
+}
+
+
